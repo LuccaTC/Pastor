@@ -59,6 +59,9 @@ public class Pastor {
                 + ovBlack * 150 + "Kg preto|");
         System.out.println("|Peso total do rebanho:"
                 + ((ovWhite * 120) + (ovBrown * 180) + (ovBlack * 150)) + "Kg                       |");
+        System.out.println("|Peso total do rebanho:"
+                + ((ovWhite * 120) + (ovBrown * 180) + (ovBlack * 150)) + "Kg                       |");
+        System.out.println("|Preço total:R$" + ((ovWhite * PrWhite) + (ovBrown * PrBrown) + (ovBlack * PrBlack))
         System.out.println("|__________________________________________________|");
     }
 }
